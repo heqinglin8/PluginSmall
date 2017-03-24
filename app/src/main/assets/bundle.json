@@ -1,0 +1,22 @@
+
+{
+  "version": "1.0.0",
+
+  //指定 Module name 为 app.*
+  //在 Small DSL 中显式指明 bundles app your_module_name
+  "bundles": [
+    {
+      "uri": "car",
+      "pkg": "com.qinglin.small.app.car",
+      "rules": {
+        //"some": "CarSome" //也行
+        "some": "CarSomeActivity"
+      }
+    },
+    {
+      "uri": "dealer",
+      "type": "app",  //显式指明是应用
+      "pkg": "com.qinglin.small.app.dealer"
+    }
+  ]
+}
