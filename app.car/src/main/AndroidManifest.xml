@@ -17,6 +17,17 @@
         </activity>
 
         <activity android:name=".CarSomeActivity" />
+
+        <activity android:name="com.qinglin.small.app.car.CarSubActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="car"
+                    android:path="/carlist"
+                    android:scheme="small"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

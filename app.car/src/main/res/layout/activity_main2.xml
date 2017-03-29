@@ -26,5 +26,23 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="吊起经销商" />
+        android:text="路由的方法吊起经销商" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="schema吊起找车列表" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="schema吊起经销商列表" />
 </LinearLayout>

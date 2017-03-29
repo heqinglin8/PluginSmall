@@ -1,5 +1,7 @@
 package com.qinglin.small.main.activity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -20,6 +22,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         TextView tv1 = (TextView) findViewById(R.id.tv1);
         tv1.setOnClickListener(this);
+
+        TextView tv2 = (TextView) findViewById(R.id.tv2);
+        tv2.setOnClickListener(this);
     }
 
 
@@ -34,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.tv1:
                 lauchToCarPlgin();
+                break;
+            case R.id.tv2:
                 break;
         }
     }
