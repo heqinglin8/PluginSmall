@@ -17,6 +17,9 @@
       "uri": "dealer",
       "type": "app",  //显式指明是应用
       "pkg": "com.qinglin.small.app.dealer"
+    },
+    {
+      "pkg": "com.qinglin.small.commonlib"
     }
   ]
 }
