@@ -1,4 +1,4 @@
-package com.qinglin.small.commonlib;
+package com.qinglin.small.libcommon;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,2 +1,1 @@
-include ':app', ':app.car', ':app.dealer'
-include ':common.lib'
+include ':app', ':app.car', ':app.dealer', ':lib.common'

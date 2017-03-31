@@ -19,7 +19,7 @@
       "pkg": "com.qinglin.small.app.dealer"
     },
     {
-      "pkg": "com.qinglin.small.commonlib"
+      "pkg": "com.qinglin.small.libcommon"
     }
   ]
 }
