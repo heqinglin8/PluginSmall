@@ -1,4 +1,4 @@
-package com.qinglin.small.main;
+package com.qinglin.small;
 
 import org.junit.Test;
 

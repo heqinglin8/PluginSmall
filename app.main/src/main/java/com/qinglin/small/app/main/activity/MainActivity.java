@@ -1,14 +1,11 @@
-package com.qinglin.small.main.activity;
+package com.qinglin.small.app.main.activity;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 
-import com.qinglin.small.main.R;
+import com.qinglin.small.app.main.R;
 
 import net.wequick.small.Small;
 

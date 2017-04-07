@@ -6,6 +6,14 @@
   //在 Small DSL 中显式指明 bundles app your_module_name
   "bundles": [
     {
+      "pkg": "com.qinglin.small.libcommon"
+    },
+    {
+      "uri": "main",
+      "type": "app",  //显式指明是应用
+      "pkg": "com.qinglin.small.app.main"
+    },
+    {
       "uri": "car",
       "pkg": "com.qinglin.small.app.car",
       "rules": {
@@ -17,9 +25,6 @@
       "uri": "dealer",
       "type": "app",  //显式指明是应用
       "pkg": "com.qinglin.small.app.dealer"
-    },
-    {
-      "pkg": "com.qinglin.small.libcommon"
     }
   ]
 }
