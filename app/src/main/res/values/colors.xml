@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <!-- 使用schema吊起会采用宿主app的theme，而使用路由会默认采用libcommon的theme，
+         这里和libcommon的theme统一 ，以方便两种跳转方式-->
+    <color name="colorPrimary">#FFC125</color>
+    <color name="colorPrimaryDark">#FF8125</color>
     <color name="colorAccent">#FF4081</color>
 </resources>

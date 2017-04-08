@@ -10,11 +10,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/com_color_01"
         android:text="经销商sub" />
 
     <TextView
         android:id="@+id/tv_dics"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/color_03"
         android:text="经销商" />
 </LinearLayout>

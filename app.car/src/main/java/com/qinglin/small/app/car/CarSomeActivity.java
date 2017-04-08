@@ -11,8 +11,8 @@ import android.widget.TextView;
 import net.wequick.small.Small;
 
 public class CarSomeActivity extends AppCompatActivity implements View.OnClickListener {
-        final String appname = "找车插件";
-
+    final String appname = "找车插件";
+    int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,15 +51,14 @@ public class CarSomeActivity extends AppCompatActivity implements View.OnClickLi
         }
     }
 
-    private void lauchToDealerPlginBySchema() {
-        String URI_INVOKE = "small://dealer/dealerlist";
-        Uri uri = Uri.parse(URI_INVOKE).buildUpon()
-                .appendQueryParameter("appname", appname)
-                .appendQueryParameter("count",count+"").build();
-
-        Intent intent = new Intent();
-        intent.setData(uri);
-        startActivity(intent);
+    public void lauchToDealerPlgin() {
+        Small.setUp(this, new Small.OnCompleteListener() {
+            @Override
+            public void onComplete() {
+                String uri = "dealer?appname=" + appname + "&count=" + count;
+                Small.openUri(uri, CarSomeActivity.this);
+            }
+        });
     }
 
     private void lauchToCarPlginBySchema() {
@@ -73,15 +72,23 @@ public class CarSomeActivity extends AppCompatActivity implements View.OnClickLi
         startActivity(intent);
     }
 
-    int count = 0;
-    public void lauchToDealerPlgin() {
-        Small.setUp(this, new Small.OnCompleteListener() {
-            @Override
-            public void onComplete() {
-                String uri = "dealer?appname=" + appname + "&count=" + count;
-                Small.openUri(uri, CarSomeActivity.this);
-            }
-        });
+    private void lauchToDealerPlginBySchema() {
+        String URI_INVOKE = "small://dealer/dealerlist";
+        Uri uri = Uri.parse(URI_INVOKE).buildUpon()
+                .appendQueryParameter("appname", appname)
+                .appendQueryParameter("count",count+"").build();
+
+        Intent intent = new Intent();
+        intent.setData(uri);
+        startActivity(intent);
+
+//        Small.setUp(this, new Small.OnCompleteListener() {
+//            @Override
+//            public void onComplete() {
+//                String uri = "dealer/dearlist?appname=" + appname + "&count=" + count;
+//                Small.openUri(uri, CarSomeActivity.this);
+//            }
+//        });
     }
 
 }

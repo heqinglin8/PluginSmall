@@ -10,14 +10,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我是 Small2!"
+        android:text="@string/app_name_car"
         android:textSize="20dp" />
 
     <TextView
         android:id="@+id/tv_dsc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我是 Small2!"
+        android:text=""
         android:textSize="20dp" />
 
     <Button
@@ -44,5 +44,5 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="schema吊起经销商列表" />
+        android:text="schema吊起经销商列表\n(将使用到宿主的theme)" />
 </LinearLayout>

@@ -10,11 +10,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="经销商" />
+        android:text="@string/app_name_dealer" />
 
     <TextView
         android:id="@+id/tv_dics"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="经销商" />
+        android:text="@string/app_name_dealer" />
 </LinearLayout>
