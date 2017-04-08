@@ -19,6 +19,11 @@ android {
     }
 }
 
+//将把当前插件的资源ID段分配为 0x13。
+ext {
+    packageId = 0x13
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'

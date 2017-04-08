@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "24.0.3"
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "com.qinglin.small.app.main"
@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+//将把当前插件的资源ID段分配为 0x12。
+ext {
+    packageId = 0x12
 }
 
 dependencies {

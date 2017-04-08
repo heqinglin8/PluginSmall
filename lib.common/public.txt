@@ -5,4 +5,9 @@ int color colorAccent 0x2a040000
 int color colorPrimary 0x2a040001
 int color colorPrimaryDark 0x2a040002
 int color com_color_01 0x2a040003
+int color com_color_02 0x2a040004
+int color com_color_03 0x2a040005
+int color com_color_04 0x2a040006
+int color com_color_05 0x2a040007
+int color com_color_06 0x2a040008
 int string find_car_main 0x2a050000
