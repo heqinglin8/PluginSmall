@@ -2,4 +2,18 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="ahlib_common_font01">12sp</dimen>
+    <dimen name="ahlib_common_font02">13sp</dimen>
+    <dimen name="ahlib_common_font03">14sp</dimen>
+    <dimen name="ahlib_common_font04">15sp</dimen>
+    <dimen name="ahlib_common_font05">16sp</dimen>
+    <dimen name="ahlib_common_font06">17sp</dimen>
+    <dimen name="ahlib_common_font07">18sp</dimen>
+    <dimen name="ahlib_common_font08">19sp</dimen>
+    <dimen name="ahlib_common_font09">21sp</dimen>
+    <dimen name="ahlib_common_font10">11sp</dimen>
+    <dimen name="ahlib_common_font11">10sp</dimen>
+    <dimen name="ahlib_common_font12">38sp</dimen>
+    <dimen name="ahlib_common_font13">24sp</dimen>
 </resources>

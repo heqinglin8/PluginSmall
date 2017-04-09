@@ -1,6 +1,8 @@
 package com.qinglin.small;
 
 import android.app.Application;
+import android.util.Log;
+import android.widget.Toast;
 
 import net.wequick.small.Small;
 
@@ -12,5 +14,6 @@ import net.wequick.small.Small;
 public class SmallApplication extends Application {
     public SmallApplication() {
         Small.preSetUp(this);
+        Log.i("hql", "SmallApplication:" + (Small.getContext() instanceof SmallApplication));
     }
 }

@@ -9,6 +9,9 @@
       "pkg": "com.qinglin.small.libcommon"
     },
     {
+      "pkg": "com.qinglin.small.lib.business"
+    },
+    {
       "uri": "main",
       "type": "app",  //显式指明是应用
       "pkg": "com.qinglin.small.app.main"

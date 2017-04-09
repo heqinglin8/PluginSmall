@@ -10,4 +10,7 @@
     <color name="com_color_04">#FF4081</color>
     <color name="com_color_05">#1E90FF</color>
     <color name="com_color_06">#1874CD</color>
+
+    <color name="com_color_whihte">#ffffff</color> <!-- 白色 -->
+
 </resources>
