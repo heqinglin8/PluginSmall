@@ -22,3 +22,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':lib.common')
 }
+
+allprojects {
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+}
