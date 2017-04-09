@@ -7,6 +7,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.qinglin.small.app.main.R;
+import com.qinglin.small.lib.business.utils.NetUtil;
 import com.qinglin.small.lib.business.utils.StringUtil;
 
 import net.wequick.small.Small;
@@ -28,14 +29,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void checkNet() {
-//        if(!NetUtil.CheckNetState()){
-//            Toast.makeText(this,"无网络",Toast.LENGTH_SHORT).show();
-//        }else{
-//            if(NetUtil.isWifi())
-//                Toast.makeText(this,"WIFI",Toast.LENGTH_SHORT).show();
-//            if(NetUtil.isMobile())
-//                Toast.makeText(this,"手机网络",Toast.LENGTH_SHORT).show();
-//        }
+        if(!NetUtil.CheckNetState()){
+            Toast.makeText(this,"无网络",Toast.LENGTH_SHORT).show();
+        }else{
+            if(NetUtil.isWifi())
+                Toast.makeText(this,"WIFI",Toast.LENGTH_SHORT).show();
+            if(NetUtil.isMobile())
+                Toast.makeText(this,"手机网络",Toast.LENGTH_SHORT).show();
+        }
     }
 
 
