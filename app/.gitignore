@@ -2,3 +2,5 @@
 /build
 *.iml
 lint.xml
+/smallLibs/*
+/smallLibs/armeabi
