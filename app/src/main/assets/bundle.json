@@ -14,7 +14,11 @@
     {
       "uri": "main",
       "type": "app",  //显式指明是应用
-      "pkg": "com.qinglin.small.app.main"
+      "pkg": "com.qinglin.small.app.main",
+      "rules": {
+        //"some": "CarSome" //也行
+        "musicmain": ".activity.MusicPlayerActivity"
+      }
     },
     {
       "uri": "car",

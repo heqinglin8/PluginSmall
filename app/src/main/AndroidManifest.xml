@@ -42,6 +42,9 @@
                     android:scheme="small"/>
             </intent-filter>
         </activity>
+
+        <activity android:name="com.qinglin.small.app.main.activity.MusicPlayerActivity"/>
+        <activity android:name="com.qinglin.small.app.main.activity.FmmActivity"/>
     </application>
 
 </manifest>

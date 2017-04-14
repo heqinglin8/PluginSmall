@@ -1,3 +1,10 @@
+int attr fmm_progress_percent 0x2a010000
+int attr fmm_progress_color 0x2a010001
+int attr fmm_progress 0x2a010002
+int attr fmm_button_interval 0x2a010003
+int attr fmm_cover 0x2a010004
+int attr fmm_backgroundTint 0x2a010005
+int attr fmm_floating_direction 0x2a010006
 int dimen activity_horizontal_margin 0x2a020000
 int dimen activity_vertical_margin 0x2a020001
 int dimen ahlib_common_font01 0x2a020002
@@ -81,3 +88,4 @@ int layout ahlib_common_layout_toast 0x2a070001
 int layout ahlib_common_layout_toast_icon 0x2a070002
 int id dialog_container 0x2a080000
 int id message 0x2a080001
+int id down 0x2a080002
