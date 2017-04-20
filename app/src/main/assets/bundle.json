@@ -17,7 +17,8 @@
       "pkg": "com.qinglin.small.app.main",
       "rules": {
         //"some": "CarSome" //也行
-        "musicmain": ".activity.MusicPlayerActivity"
+        "musicmain": ".activity.MusicPlayerActivity",
+        "supertext": ".activity.SupperTextViewActivity"
       }
     },
     {

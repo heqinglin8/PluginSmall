@@ -28,4 +28,12 @@
         android:layout_height="wrap_content"
         android:textSize="18dp"
         android:text="吊起音乐播放器" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="吊起SupperTextView" />
 </LinearLayout>

@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int count = 0;
     private TextView tv1;
     private TextView tv2;
+    private TextView tv3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv1.setOnClickListener(this);
         tv2 = (TextView) findViewById(R.id.tv2);
         tv2.setOnClickListener(this);
+        tv3 = (TextView) findViewById(R.id.tv3);
+        tv3.setOnClickListener(this);
     }
 
     private void checkNet() {
@@ -56,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(MainActivity.this, "hello kugou!", Toast.LENGTH_SHORT).show();
                 lauchToMusicMain();
                 break;
+            case R.id.tv3:
+                lauchToSupperTextView();
+                break;
         }
     }
 
@@ -72,14 +78,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void lauchToMusicMain() {
-        final String appname = "主插件";
         Small.setUp(this, new Small.OnCompleteListener() {
             @Override
             public void onComplete() {
-                count++;
                 String uri = "main/musicmain";
                 Small.openUri(uri, MainActivity.this);
             }
         });
     }
+
+    public void lauchToSupperTextView() {
+        Small.setUp(this, new Small.OnCompleteListener() {
+            @Override
+            public void onComplete() {
+                String uri = "main/supertext";
+                Small.openUri(uri, MainActivity.this);
+            }
+        });
+    }
+
 }

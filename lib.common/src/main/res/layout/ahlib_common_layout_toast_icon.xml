@@ -27,7 +27,7 @@
             android:layout_marginTop="15dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColor="@color/com_color_whihte"
+            android:textColor="@color/white"
             android:textSize="@dimen/ahlib_common_font04" />
     </RelativeLayout>
 

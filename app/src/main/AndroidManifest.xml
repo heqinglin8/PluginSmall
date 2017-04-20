@@ -45,6 +45,7 @@
 
         <activity android:name="com.qinglin.small.app.main.activity.MusicPlayerActivity"/>
         <activity android:name="com.qinglin.small.app.main.activity.FmmActivity"/>
+        <activity android:name="com.qinglin.small.app.main.activity.SupperTextViewActivity"/>
     </application>
 
 </manifest>

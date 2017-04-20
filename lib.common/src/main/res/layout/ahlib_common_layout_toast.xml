@@ -13,7 +13,7 @@
         android:background="@drawable/ahlib_common_bg_toast"
         android:lineSpacingMultiplier="1.2"
         android:padding="18dp"
-        android:textColor="@color/com_color_whihte"
+        android:textColor="@color/white"
         android:textSize="@dimen/ahlib_common_font04" />
 
 </RelativeLayout>
